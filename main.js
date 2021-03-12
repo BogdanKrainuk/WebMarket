@@ -63,7 +63,7 @@ $(document).ready(function() {
     let page1 = $('.page-1');
     let page2 = $('.page-2');
     let page3 = $('.page-3');
-    let form = $('form');
+    let form = $('.form-orders');
     let line = $('.progress-line');
 
     page2.remove();
