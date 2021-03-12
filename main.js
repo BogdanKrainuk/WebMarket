@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     function resizeDivs() {
         let search = $('.search-form');
-        let logo = $('.header-container > .logo')
+        let logo = $('.logo-header')
         if ($('.max-width-1439px').is(':visible')) {
             $('.btn-order').after(search);
         } else {
