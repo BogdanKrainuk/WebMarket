@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Webcam</title>
+    <link rel="stylesheet" href="dist/all.min.css">
+    <link rel="stylesheet" href="dist/main.min.css">
+    <link rel="stylesheet" href="dist/adaptive.css">
+    <meta name="viewport" content="width=device=width,initial-scale=1.0">
+</head>
+<body>
+<div id="header">
+    <div id="burger-menu">&#9776;</div>
+    <div id="h-container">
+        <div id="h-cont-p">
+            <div id="h-info">
+                <a href="#">О сервисе</a>
+                <a href="#">Для моделей и агенств</a>
+                <a href="#">Для исполнителей</a>
+                <a href="#">Обратная связь</a>
+            </div>
+            <div id="h-panel">
+                <div id="h-shop">
+                    <a id="cart-icon" href="#">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <div id="order">
+                        <button class="btn-blue btn-order" type="button">Создать заказ</button>
+                    </div>
+                </div>
+                <div id="register">
+                    <a id="lock-i">
+                        <i class="fas fa-unlock-alt"></i>
+                    </a>
+                    <div class="links">
+                        <a href="#">Вход</a>
+                        <span>/</span>
+                        <a href="#">Регистрация</a>
+                    </div>
+                </div>
+                <div id="lang">
+                    <a class="ru active" href="#">Ru</a>
+                    &nbsp;
+                    <span>|</span>
+                    &nbsp;
+                    <a class="en" href="#">En</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="h-main">
+        <div id="h-main-p">
+            <div class="logo">
+                <span>WebcamMarket</span>
+            </div>
+            <form action="#" class="search-form">
+                <button type="submit" class="search-form-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" viewBox="0 0 17 17">
+                        <image id="Слой_10" data-name="Слой 10" width="17" height="17" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABGklEQVQ4jZ2ToUtDURSH78YYBtcXhmCyiGAYC8Mlk1o0LdhFmGhYmF1YMFj8B7Y6ZFjEYrFZBWFFsCwsmMS04ScPfm9ez96bdx74cXjnnPvd+8491wG+CsAV8M6PfQIdYMXUTuV/7HgLb4AGcAx0gYniR/MguyrqAfmUHS9Vc5oEWVLyNu24ni5Uu2oh10r8BYj1ATxZyJd+IxTS0qa5OJZ1zmWcc3cu3B7k1+JAVn68AGQin7eQrQUgZfnBNAL01ZfQnrwCb7axRTWqHQCoq7aUNGxnSp7PARx6E11JG/umCoa6xhpQBU6AF2ZtLwkSaRN4TFjwDJSBbROPnssMJFb0ftaBDWDZ5A7siUJvxOoX6L+QSPvACLj/BjFfDKmmgK/8AAAAAElFTkSuQmCC"/>
+                    </svg>
+                </button>
+                <input type="search" class="search-form-input" placeholder="Поиск..." />
+            </form>
+            <div id="h-menu">
+                <a href="#">Задачи</a>
+                <a href="#">Каталог исполнителей</a>
+                <a href="#">Каталог моделей и агенств</a>
+                <a href="#">Вопрос-ответ</a>
+                <a href="#">Форум</a>
+                <a href="#">Интернет-магазин</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="main">
+    <div id="m-container">
+        <div id="m-title">
+            <h1>Маркетплейс № 1 в мире по взаимодействию вебкам-моделей
+                и агентств с исполнителями</h1>
+        </div>
+        <div id="m-performers">
+            <ul>
+                <li>Наставники</li>
+                <li>Операторы чатов</li>
+                <li>Видеоредакторы</li>
+                <li>Дизайнеры</li>
+                <li>IT-специалисты</li>
+            </ul>
+        </div>
+        <div id="m-info">
+            <div id="m-instruction">
+                <a href="#"><i class="fas fa-play-circle"></i> Видеоинструкция</a>
+            </div>
+            <div id="m-find-performer">
+                <button id="btn-performer" type="button">Найти <span>исполнителя</span> </button>
+            </div>
+            <div id="m-work">
+                <span>Нужна работа?&nbsp;-&nbsp;</span>
+                <a href="#">Зарегистрируйтесь фрилансером!</a>
+            </div>
+        </div>
+    </div>
+    <div id="m-stages">
+        <div id="stages-container">
+            <div class="stage">
+                <div class="s-num">1</div>
+                <div class="s-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45"
+                         height="59" viewBox="0 0 45 59">
+                        <image id="Слой_18" data-name="Слой 18" width="45" height="59"
+                               xlink:href="data:img/png;base64,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"/>
+                    </svg>
+                </div>
+                <div class="s-text">
+                    У вас есть задача для исполнителя?
+                </div>
+            </div>
+            <div class="stage">
+                <div class="s-num">2</div>
+                <div class="s-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52"
+                         height="52" viewBox="0 0 52 52">
+                        <image id="Слой_19" data-name="Слой 19" width="52" height="52"
+                               xlink:href="data:img/png;base64,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"/>
+                    </svg>
+
+                </div>
+                <div class="s-text">
+                    Зарегистрируйтесь и создайте заказ
+                </div>
+            </div>
+            <div class="stage">
+                <div class="s-num">3</div>
+                <div class="s-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65"
+                         height="53" viewBox="0 0 65 53">
+                        <image id="Слой_20" data-name="Слой 20" width="65" height="53"
+                               xlink:href="data:img/png;base64,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"/>
+                    </svg>
+
+                </div>
+                <div class="s-text">
+                    Напишите детали и ждите откликов
+                </div>
+            </div>
+            <div class="stage">
+                <div class="s-num">4</div>
+                <div class="s-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68"
+                         height="50" viewBox="0 0 68 50">
+                        <image id="Слой_21" data-name="Слой 21" width="68" height="50"
+                               xlink:href="data:img/png;base64,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"/>
+                    </svg>
+                </div>
+                <div class="s-text">
+                    Выберите исполнителя и оформите сделку
+                </div>
+            </div>
+            <div class="stage">
+                <div class="s-num">5</div>
+                <div class="s-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53"
+                         height="53" viewBox="0 0 53 53">
+                        <image id="Слой_22" data-name="Слой 22" width="53" height="53"
+                               xlink:href="data:img/png;base64,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"/>
+                    </svg>
+                </div>
+                <div class="s-text">
+                    Проверьте выполнение задачи
+                </div>
+            </div>
+            <div class="stage">
+                <div class="s-num">6</div>
+                <div class="s-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66"
+                         height="58" viewBox="0 0 66 58">
+                        <image id="Фигура_5" data-name="Фигура 5" width="66" height="58"
+                               xlink:href="data:img/png;base64,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"/>
+                    </svg>
+
+                </div>
+                <div class="s-text">
+                    Исполнитель получает оплату
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="market-container">
+    <h2 class="title">ВебкамМаркет для моделей и агентств - это:</h2>
+    <div class="market-description-container">
+        <div class="descriptions">
+            <div class="description">
+                <div class="d-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23"
+                         height="34" viewBox="0 0 23 34">
+                        <image id="Слой_23" data-name="Слой 23" width="23" height="34"
+                               xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAiCAYAAAC0nUK+AAAC7ElEQVRIiaWWSUhWURTHf59aamlqmS0aMSgaiIoGDKJx00jZwmiCchFUi1YRBIGtauE2iAiqRYMEUVER2LBpEhpx02Blg9hoc0alceR/P17X977vfXbgcd6979z/O/O5iaHl00hDFcABoBq4nk44SFkxZMYCY4DRmQD74POBRmCGJ/NV/Iu3PxW4B8yOA94GjAOuAkFfFYj3DexNBhqACcCnOOC3gJHAN+AmsEr7j4FWoFnrKsmaRcOBO1HgYQEdBDwH7gLTQ85cAyYCw4B3UcBGOSF7r4EioE/EmYXy/59UwA58HlAOdMpNn4FjQDtQCBwClgM3gHXAI51dIwU6tG6UTJLMLQ+AUd5PhwCvFDTLioeS+QgMlEuavDPngEW+5hU6YGZmA98FXCZgC94UoAbYCcwELgMjgDxpnpA7u7nlgx6feom/FW8VzxdvDjnzD6WqUBewPHGX5z/SgcYB98kF7iTQAmz7H/CEt3aWFOnZA9xWlj0DZmUC3umtXU0skIss6JOA96rUK8BKYAVQSkQRRZFTpC1gSYeArFbqgaP69tOqO5Xm/o+dJa6RFQdc1SJuabsZyAVOB8ENbAuwSVq+9DTO8Xgi8N5P/CCwF7hkheY+5qsax2u9A9gqs5122eK/xQtDrCwJM32DgHepP9cCdXKF69eHVUhu1FWFaF4ctNZ9LBU/pfS6D5wFegc0faFZ6qgu8N6g1AzuJf25T/yiAOsDeVtGerJ03C7FuoGbuatl1gntufaZT+aUi1dERxTlJcBS7Vn+ru0BeFcf8sdcgaZMp+fvTMl6fblfRDZ0K5XDF3oIjOZwaG+xrnccmAts7AFwtdyyP+o6l6UrRp6mVMop71G7AloS1VusMpfp/UwGwDUC3m3zNruoZHCUYJPm5GIFOd0ltL+G9Bu15bSTaL3ma20M2QHiboDEGnNPxN2Yi6Kn4snLVJxh4fq3FdivCIWsc7qmleyWccCtgZnJc2LI2jXkfNcb8BflCJoLPzH1xAAAAABJRU5ErkJggg=="/>
+                    </svg>
+                </div>
+                <div class="d-content">
+                    <div class="d-content-title">
+                        Легкий выбор исполнителя
+                    </div>
+                    <div class="d-content-text">
+                        Удобные фильтры, понятный интерфейс, поясняющее
+                        видео, база знаний, служба поддержки
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                <div class="d-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27"
+                         height="25" viewBox="0 0 27 25">
+                        <image id="Слой_24" data-name="Слой 24" width="27" height="25"
+                               xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAZCAYAAADAHFVeAAACxElEQVRIiZWVa2jPURjHP38bVlbzl0u5FPPCJSORksuYkMtaa42WeDHlDcZCItobakVzX3hDikgUUi4pL/ZCKQ2hJBa5zWouxda2/19H37OOs53/7/f/1nr+5+z5Pd/znOf7PCcxrnAOHvYDe4E8rb8A3cBY39HBJyDl+HQBp4Ba18knmwq80O+XQA9QpPVrBUw4/mnZybLPgFzFMVgMPAyRvQEmAtMc0l/Ab2BUhsyadagcrUcDH4F2YJh1GuB8UCuiEw6ROXE+cC0DkcFVxVqgtbnWPUASOOyTDQUagJ9AjRNkueydCLIHsqucvXrgPbADmOCS2ZMX/R+DctXlZgTZI6ADqPT2J0lcN1Ax1wIlwCtguIqb0v0XK9tiR50JHSDhCKRTqi0EyoA/+v834DEwF9hsBNIKjNAJcvs5dcqrbQhpT6n+990meB3QKMXVSD0J/dUrw63AoECwtL49oux3icCgVQIxSq6z0r8ArAcqgOtOoDPAJgXpjMisR0JyRTIPaNL+Cns9G4AWCWW+43xS9mwE0UFdVYOzN0VEP4DVeE09HninUVOgIqOmzg9coUW72sf1+QqMBGYBT/AKbzJbAwx0R4xqYbAsQDRDROedvdsi2mKJfDI0CY4DJt1j2muU3R0gs8P2kKwZ4iuBKxrGvehv6hs8BaYrm/vAB030/oSS1l6esmzWXOzzSoT6Z4nsPdlq2XLPb5HsNtkmbz8WWRtQqt+3lJ3JYKfnZ6/QtMhpCWmjXo8+yClIjgnw/Xu/kmqL7xqqpaplh6bNRc3NwcAB4DKwLxQwagxtB54DR513aZ1smWyXlPgZqMoULM7MK5GtDNgK2YVRgeKQtdkJIMzWS+7KuDpUp2zJUJPa5h4C3NXEMbgEnIsTJNRnIZhpMNNZt9hXOA7iZmZhmtxMd4ul2XycLZmpn1Hh27h16gXwFyBNmEuJOVAsAAAAAElFTkSuQmCC"/>
+                    </svg>
+                </div>
+                <div class="d-content">
+                    <div class="d-content-title">
+                        Качественное выполнение
+                    </div>
+                    <div class="d-content-text">
+                        Исполнители с более чем 3 отриц. отзывами удаляются
+                        автоматически, фильтрация по рейтингам помогает
+                        выбирать лучших
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                <div class="d-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18"
+                         height="27" viewBox="0 0 18 27">
+                        <image id="Слой_25" data-name="Слой 25" width="18" height="27"
+                               xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAbCAYAAABxwd+fAAACQklEQVQ4jY2VX2jOURjHP3vZlnjNO7I2vRc2s0ZJGkqhJH+WUlZyoSab4cKNcuHKhVyRG+R/CEnU3NhkLXJnI+XC33AjSeRPyya2V4++p86Oc7b3W+/7/M45z/k+zznP85ynJF+7hATagFZgucYPgcvAiZhyjGgG0A00afwFGAZmavwKWA+89TdlAhIb94nkKjBPxFXAHOAkMBd4BEzxN06oyM3yx4eBZrnfDnz21r4Ct4GCPKoDbsaOVgb8An4Ck1MXJ3wAqoFKGRh1tPmSneOQGC5JLvbvxCEn+b4Iok+SFTGiYcnyIoiczkiMqBAujoE/wZ7/wm8YABoUuddStt874DywABgMN/lRWwg8UQJO93Q+iqjam3M6q4He0KMqSVPoBzYCU0VQowRcB9zzDNWEHmWBl9q0Dzgyzh3tAM4AP4BGyyvn0RWRHCiCxHAW2C2PO51HtcAbFWFdZNNeoBQ4CvwO1vpVl00T9VwY9kdITgE79b0U2BQx8gDYYx490zmzCr0PezLq9f0dmBYxZnn3LSOSoQiJocNLvm2RdVRSOXfZhYTSfXliuJXQ+VcJGYV90hhPhzNWlljPmzFTuqOJFQlF9yrEymmR5u/a30VNHkwQnQOueXfl45DkaZfZdhcrLYzA8QRhiM3AdeC5ve3O3RYl2zFgVxEkW0Ri2GB/jsiqeZkiYJ2iC1hlzSEgMJ0bOqphjWtLYV+bDVzQMR1eyIDlW4nmHgPbgadOKdVp7bnYCqxVXzNYPvWo343OKeAvxhp1A2DddcMAAAAASUVORK5CYII="/>
+                    </svg>
+                </div>
+                <div class="d-content">
+                    <div class="d-content-title">
+                        Конфиденциальность
+                    </div>
+                    <div class="d-content-text">
+                        Ваше реальное имя и данные видят только отдельные
+                        сотрудники компании, но не исполнители
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="descriptions">
+            <div class="description">
+                <div class="d-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33"
+                         height="31" viewBox="0 0 33 31">
+                        <image id="Слой_26" data-name="Слой 26" width="33" height="31"
+                               xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAfCAYAAABplKSyAAADeklEQVRYhb3XaYydUxwG8N+YGU2JaagooUQ/ELEEsZROVWloNKgmNEh0QiU0EoSEiCWqvogPjKUqVJrQWKJB7Xu0kSZExVpbkEpqCeEDSnVGzuS58ua6M+6d2/H/8r7vOec95znPef7L6Zg85SjbwJ7EabgfC1v9ebttAGBNALyJC7Dq/wTRjdfQi/mYhktxBp5qZaKuNkCU3R+PBXg0bf3YjGV4GbOamagdJt7B55iL8ZX2e3ExTsRzYw3iS3wd+r9AT6XvHvRhNtaOJYiXstu7sEeA7FTpX4Fzo5V1YwHi6Zz3IlyC47ArPgmgmq3E2Tg63tNQg6MBUVxyDs7H0krbtAD4rO5oHsZMHFMRcFsgai5ZAtIDdX1lpzOwIzZgcqXv9TyPbBVEdxbszPfauGRfImMjewNTwsjblfbv85zT6Kfh4kRPhFbO+Ud8ELrnD0dpxX7NczdsxV/YHtPxXqMfGjGxTwVAoX0wNN/YBIBj8U3ix1kBX94PHclV6xPYOHyFXXA4PsTEuNjeOAWvDDNXbwQ6UDnCpqyeibL47lgeAHIcB+OnhOKTG8wzMwBqcy5qB8R3WI2LcF6lveSDA+J+z2Nepa+w82oY7MAtCWA3NwuiXpgDSUwvJuJ1Vlzx5wApiz2ecy4ifCb9xSP2x1WYhGsC/qZWmajZSTn75akRarY1C32Ed/FxQByY49sQZoob34bFuLVVJqo2KxXTfdgBd6T9NxwSIPvh9rxPxfqAKrq5PLHmirjp1aMBUez0aKA/3zUgNUY24olEyS04KEBewKnJK5tzRBOS4lsGIel4RYD0VARXWNgL79eNPywuXQR+Jq7E77g2/f8C0mxltSDULsEPeCtFzbfDVE9TE5weS5S9Dn9EpOOjmZZBFDsneliW703xll+GGd+bpPZIvG5JNnJ9NPJPVd5qjbkwMWFSYsGf/zG+hPFnw0jRxw1JZncmEpeqTOeEnfdsEceQBtZFnM3YQzghWvg0bj+Y77L46naq7VZsRu4jK5MYF4eRUhR110AckXQ7MMpFOpI9N44wZl7cuT+aWJqyr68rZfnsUS5etS2ZdP0IY+ZGqHdn46VGGegKgJIrLsyOWrXBpPk1iZQjgRCX3ZTbWsnQ02vHsW/K99EUvgVE8ZZiheZm7LKE8RJNh1z0wdwPimrbsXIRaurGFRsCAH8D3+LIdk3XIpwAAAAASUVORK5CYII="/>
+                    </svg>
+                </div>
+                <div class="d-content">
+                    <div class="d-content-title">
+                        Безопасная сделка и арбитраж
+                    </div>
+                    <div class="d-content-text">
+                        Оплата заводится на сервис, исполнитель получит деньги
+                        только после качественного выполнения вашей задачи
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                <div class="d-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30"
+                         height="25" viewBox="0 0 30 25">
+                        <image id="Слой_27" data-name="Слой 27" width="30" height="25"
+                               xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAZCAYAAAAmNZ4aAAAC1UlEQVRIib3WWajVVRQG8F9ehx6ymzmAhBWOYUol5hCkmKJI+eIQXRFywscGQsVA0qCSklACFUSEelEqegl8KoIUUVFBtEFv1IOJSQpJYoqg7PgO/DmeO5wDuuCwh7PX/vZ/7W99az8wYuQUDWw0OjAXE/BI5s/jBL7Bl7jWyLk3Vg88FNuwtDJ3EX+jDSPwUOW/tdjaCnCfSn8qLgV0P6ajH4ZjIsZjYL5+CX7CJzjYCnDti0toz2VuNr7vpf+7+AA/YkYzwG3tgx4r7Um0Y2T6vbUCeCQHuI1jeDCRvNWdY1nwKh7HG/i9mVMnUuPS3xyyXcV1XMHXeL2RYwn1aTxd+k0AFqLtwJqMO/Ez/sXN8GBiIljsRg6wv7ZB34D+0ATooFzHE/gKn+JwF2sfxSv4DPswDW+rsLqzCeAjAe0Iu7sClXB/Hv6Ur30Lm6rAo3oJ+iHGJOX2NXHYYq+FjO+VPWp3PL4upxtZv9xfZ8BbsYfxDw4UsI0h1voenKanfb9FUGH8UczvE909gy14oRun59KeqMwNTBpOy3hKyNOe8Uqsrtvnf6WrhXdOEv4QVvVw6tuV/jxsx66Mt4flszLeg90YUPFpU1Gukn9f4GWsyK+k2uX8RMffTCqdrMxdCcAfkd1ziWJNRA7UMb8UoSGNyuKGsLdmq7Px5Eji6YhDK/ZUhGZPIyZ/lCuo3c2fqVDHMi71eXkLoH0rleydrlKo3OOp9OfjQmRvVgRkb5Pgk/AbBmNxSanucveZtIW1/+HJSGspm78GvKTGIgxr4N8fL6VQHE8hWpJxt6LxfNpf8vK4mPG13NWWrCl6/VdI9WzWzAzZvsPCqNyYrNUT8Nk8CCbl6VNvG5Kvy6LHo8P24VGn0u7MoTvq60FXj71WbGwYX6R1HT7GAnzbaHFP+tyMnU39vRlQFbW7p8DFyvO3hLgW1hfvF3CxolYlI4qmF9LdbbgDlQKbn+F5ZwEAAAAASUVORK5CYII="/>
+                    </svg>
+                </div>
+                <div class="d-content">
+                    <div class="d-content-title">
+                        Живое общение на форуме
+                    </div>
+                    <div class="d-content-text">
+                        Наш маркетплейс - не только площадка для решения ваших
+                        рабочих задач, но и место где вы можете пообщаться
+                        в компании коллег
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                <div class="d-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27"
+                         height="28" viewBox="0 0 27 28">
+                        <image id="Слой_28" data-name="Слой 28" width="27" height="28"
+                               xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAcCAYAAACQ0cTtAAACiUlEQVRIibXWS2jXRxAH8I/PJg0q6kHR2vhGFBWVtnqwVjyIiIi1liKKoJcKemm9qIiK6KHQSz3qQb2IVKqg+DooPhFftWgOpTXxhQelRYuJScQoC7PhRyh5kF8G/sxvd3bnuzP7nZ1/r1FjP9dJ+Q6bMS3GLTiAXXjYGQe9Owl0EocxDD9hI45jLeriIKWAXcJifIPh2IKRWI5K/BYHWdqRo74d2DdgLr7EZXyM65iKhZgZoFcj0l5diawCVeE06b04H0BJjgbQdPyCPjG/KPSOiLaqPbDVuIM3eI360Em2F9ZfCf11kONdjP/DsVjbEHuT/rZtGhfgUIxT7n/HeySarsDjwvo9uBeO12My/gnbMzRjW+xfiSM4lQ+eqH830pJkKP4tOE+bZkXU2Z6cf4YbmIC/w3YbbzE7xnlNq8++AfRz4ZS1AfJRwUltfI9tcw1XIuWJGGNiLoOPCl1RTGNOwSYcjNMmacI5jMCgmLsfxZzu+gXGFQ6VSNQPo2NNKvQvcDaibMxgE0OvUa58ikfYjR8zG5tLBsnyOH7LFKj/vofAxJ0qgrVb+d2Ulqi5VoKUGVmqzeoC0BQ81Ym3sSsyOB6E6nhRBsb8K3yC/Rmsu2lM+6+F0+nxtt6MGnsXPW9TWQSZgUkBNA8XsTXI0YgaJRJkQOi6AOuPOQV7pRKpfyt8nMA6LCm0HZkbZRGkPrpH6n3P44naiSH4MzrIH2XW2YV49n4NkNQbn0RHT2n8quw6+wur2szVROt5mcFaSgL7P+kThGklSFMPg1VksIZgT0/J+NzpUxrTX7HTwaQzUfGJMOmX7jKTJ3/n+23Pnq4lRfN92H7IYAkgNc19mF9yVImNqUs/gA8rH5VqPlnflgAAAABJRU5ErkJggg=="/>
+                    </svg>
+                </div>
+                <div class="d-content">
+                    <div class="d-content-title">
+                        Купля-продажа товаров для вебкам
+                    </div>
+                    <div class="d-content-text">
+                        Вы можете приобрести новые / БУ или продать свои товары
+                        для вебкама, см. раздел “Интернет-магазин”
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="market-b">
+        <button class="btn-blue market-btn">Регистрация для модели/агентства</button>
+    </div>
+</div>
+<div id="search-container">
+    <h2 class="title s-title">Готовы начать поиск прямо сейчас?</h2>
+    <p>Вы можете заказать услуги:</p>
+    <div id="search-blocks">
+        <a class="s-block" href="#"><span>Коуч</span><br>обучение нюансам профессии</a>
+        <a class="s-block" href="#"><span>Оператор</span><br>общение в чате на EN</a>
+        <a class="s-block" href="#"><span>SMM-специалист</span><br>ведение соцсетей</a>
+        <a class="s-block" href="#"><span>Видеоредактор</span><br>монтаж видеороликов</a>
+        <a class="s-block" href="#"><span>Дизайнер</span><br>дизайн профиля, портфолио</a>
+        <a class="s-block" href="#"><span>Верстальщик</span><br>верстка профилей, страниц</a>
+        <a class="s-block" href="#"><span>Веб-программист</span><br>программирование верстки</a>
+        <a class="s-block" href="#"><span>IT-специалист</span><br>любые технические вопросы</a>
+    </div>
+</div>
+<div id="insert-cont">
+    <div id="insert-text">
+        <span>Какие бы задачи вы перед собой не ставили...</span>
+        <p class="title">ВебкамМаркет соединяет лучших заказчиков сферы <br> вебкам и качественных исполнителей</p>
+        <span>Что касается последних...</span>
+    </div>
+</div>
+<div class="market-container">
+    <h2 class="title">ВебкамМаркет для исполнителей - это:</h2>
+    <div class="market-description-container">
+        <div class="descriptions">
+            <div class="description">
+                <div class="d-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="19" viewBox="0 0 34 19">
+                        <image id="Слой_29" data-name="Слой 29" width="34" height="19" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAATCAYAAAD1Yd/KAAABU0lEQVRIic3Vv0uVURzH8ZeXC0GbOChBQYI6J9hkEA6Bi4MQKg4q/gXiokNwt7YaW1pCEA0cdBDEIXRxkEYJ1EkRcWgMrt3gxlfOE3eIkBvP89wPHM45z3M43zffX6frcf/zHhxhAO+wrARVcYxuvMUqzvEBC3iBrgI4LsMjTexgEr/wCfP4jNcFQISuA2QphST0A89wlvYP0MwZooJ6hOY9TjGETVy1HLrNGeKPwiNF2fqnKh3AcKcMpIZdvCwLJHLkIxbTfhxj+IJHeJqSNc+EDWd8z8o3knQ6GczWe3iVI0CrGtUUkimMpI8baV7BWkHle5NVTTSxUbzBes6G/6pqmufKMN6qjivfYUzgYZkgM/iKbXxDb1kgkZz7eJJGLf2L/vIzvTf1e4w418BWOyCRrPHiDqZmFrpIczyEh23cedIOSJRvQBygL3lntp2L/kv4DZ5/R2e9xonFAAAAAElFTkSuQmCC"/>
+                    </svg>
+                </div>
+                <div class="d-content">
+                    <div class="d-content-title">
+                        Много заказов
+                    </div>
+                    <div class="d-content-text">
+                        В отрасли вебкам работает от 1 млн. девушек и парней
+                        и их количество будет только расти, при знании EN
+                        можете работать и с зарубежными заказчиками,
+                        моделям постоянно нужна помощь
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                <div class="d-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="20" viewBox="0 0 35 20">
+                        <image id="Слой_30" data-name="Слой 30" width="35" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAUCAYAAAAHpoRMAAAC7klEQVRIibWWa2iOYRjHf2NRRmyU48JLY/ngEMu0UfsgETlsJuYQRShNlCwRST5t7ZPzu40YMitSW3xBCaXM+VgUhSRfJufp0v/R3d3zPHu35V/3e9/v9dzX9fzv63Q/admJPLqAJcBuIAd4DuwAznbWWLcuENkE1ANDgAZgIHAGKP8fZHoCvSKeJYBqoBHoAxQDfYFLQBUwuBM2Q8lkAk3AV6AVuA2M8/bM1rzRk6/SXObJBwBXHJs3gbH+i9O9/8b6HjAMSEp5A/BAp30XdSrvcG2OzDx3Hxgkm9+A9cBjhfaDrxzgkIiMBtbo5Jl6dtHZF6yTnn695hOOLCkiI2XTDtdfzxrCThLA3PsQeOnIPgN1wGTHk6+BLcAshfGI5iJgM/De0bd8ugu8cmSfgNNAgcvBD9MPIMOToZjjub8S+CiiU5zDnAzRD0vaLN+m75k9wAig1JEZ+zl6yS/JJiohD3v6xySf5Mj2qQ8tdGQzgJna/49MWNM7DywAzinZlikE00SmXOVrOApcBd4qwYuUF2hftdYXgLlqiD+BpcANHTSWjOEaUKj1M2C8KqtMyWmJtxj4HaLbXflgubIaqJHcXp6vtVXSBOC7q+iHqVIvLXRk5uIvekFApDiCCPJeiRpgUqPVIWLIldeNaG/fM9nALbm6GTgAPJILE/LIculMB65HEHGRL28gYtY2nsjmKGCFwoW81BKQeQMMBaaKVBis91xW20+o5ONgoRguL9+J2DNGDdEilGU/u1IgYngB5KkJhpWvi/1q9wUxRAxPRdjyrNY8Y72lRU0tFdQCK9XcLJfSNNo0MpR7zWqKqcAu3PnpanyNKSoZDopMVTv72vOei1NGJqimeR1Q3Ko5VzF3R46GYW0HbNrh/nrFvs72qqTrdK9Y/feQ+21t+/oBi5Rf1rysMqJgnXynStragd3MZse+Zwy2tjyxK8H6ld3ex4Nq2gas080aBzNqOVPhXA1R2C6blqBxsM+SGqDiDyXzqTLHMrMsAAAAAElFTkSuQmCC"/>
+                    </svg>
+                </div>
+                <div class="d-content">
+                    <div class="d-content-title">
+                        Возможность выбора заказчика
+                    </div>
+                    <div class="d-content-text">
+                        Вы можете видеть подробную аналитику по заказчику:
+                        средняя цена часа, которую он платил ранее, какой %
+                        заказов доходит до выбора исполнителя и т.д.
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                <div class="d-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23"
+                         height="34" viewBox="0 0 23 34">
+                        <image id="Слой_23" data-name="Слой 23" width="23" height="34"
+                               xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAiCAYAAAC0nUK+AAAC7ElEQVRIiaWWSUhWURTHf59aamlqmS0aMSgaiIoGDKJx00jZwmiCchFUi1YRBIGtauE2iAiqRYMEUVER2LBpEhpx02Blg9hoc0alceR/P17X977vfXbgcd6979z/O/O5iaHl00hDFcABoBq4nk44SFkxZMYCY4DRmQD74POBRmCGJ/NV/Iu3PxW4B8yOA94GjAOuAkFfFYj3DexNBhqACcCnOOC3gJHAN+AmsEr7j4FWoFnrKsmaRcOBO1HgYQEdBDwH7gLTQ85cAyYCw4B3UcBGOSF7r4EioE/EmYXy/59UwA58HlAOdMpNn4FjQDtQCBwClgM3gHXAI51dIwU6tG6UTJLMLQ+AUd5PhwCvFDTLioeS+QgMlEuavDPngEW+5hU6YGZmA98FXCZgC94UoAbYCcwELgMjgDxpnpA7u7nlgx6feom/FW8VzxdvDjnzD6WqUBewPHGX5z/SgcYB98kF7iTQAmz7H/CEt3aWFOnZA9xWlj0DZmUC3umtXU0skIss6JOA96rUK8BKYAVQSkQRRZFTpC1gSYeArFbqgaP69tOqO5Xm/o+dJa6RFQdc1SJuabsZyAVOB8ENbAuwSVq+9DTO8Xgi8N5P/CCwF7hkheY+5qsax2u9A9gqs5122eK/xQtDrCwJM32DgHepP9cCdXKF69eHVUhu1FWFaF4ctNZ9LBU/pfS6D5wFegc0faFZ6qgu8N6g1AzuJf25T/yiAOsDeVtGerJ03C7FuoGbuatl1gntufaZT+aUi1dERxTlJcBS7Vn+ru0BeFcf8sdcgaZMp+fvTMl6fblfRDZ0K5XDF3oIjOZwaG+xrnccmAts7AFwtdyyP+o6l6UrRp6mVMop71G7AloS1VusMpfp/UwGwDUC3m3zNruoZHCUYJPm5GIFOd0ltL+G9Bu15bSTaL3ma20M2QHiboDEGnNPxN2Yi6Kn4snLVJxh4fq3FdivCIWsc7qmleyWccCtgZnJc2LI2jXkfNcb8BflCJoLPzH1xAAAAABJRU5ErkJggg=="/>
+                    </svg>
+                </div>
+                <div class="d-content">
+                    <div class="d-content-title">
+                        Легкое пользование ресурсом
+                    </div>
+                    <div class="d-content-text">
+                        Наш сервис учитывает все требования юзабилити
+                        и интернет-маркетинга, мы взяли лучшее ото всех
+                        маркетплейсов и будем добавлять свои улучшения
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="descriptions">
+            <div class="description">
+                <div class="d-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33"
+                         height="31" viewBox="0 0 33 31">
+                        <image id="Слой_26" data-name="Слой 26" width="33" height="31"
+                               xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAfCAYAAABplKSyAAADeklEQVRYhb3XaYydUxwG8N+YGU2JaagooUQ/ELEEsZROVWloNKgmNEh0QiU0EoSEiCWqvogPjKUqVJrQWKJB7Xu0kSZExVpbkEpqCeEDSnVGzuS58ua6M+6d2/H/8r7vOec95znPef7L6Zg85SjbwJ7EabgfC1v9ebttAGBNALyJC7Dq/wTRjdfQi/mYhktxBp5qZaKuNkCU3R+PBXg0bf3YjGV4GbOamagdJt7B55iL8ZX2e3ExTsRzYw3iS3wd+r9AT6XvHvRhNtaOJYiXstu7sEeA7FTpX4Fzo5V1YwHi6Zz3IlyC47ArPgmgmq3E2Tg63tNQg6MBUVxyDs7H0krbtAD4rO5oHsZMHFMRcFsgai5ZAtIDdX1lpzOwIzZgcqXv9TyPbBVEdxbszPfauGRfImMjewNTwsjblfbv85zT6Kfh4kRPhFbO+Ud8ELrnD0dpxX7NczdsxV/YHtPxXqMfGjGxTwVAoX0wNN/YBIBj8U3ix1kBX94PHclV6xPYOHyFXXA4PsTEuNjeOAWvDDNXbwQ6UDnCpqyeibL47lgeAHIcB+OnhOKTG8wzMwBqcy5qB8R3WI2LcF6lveSDA+J+z2Nepa+w82oY7MAtCWA3NwuiXpgDSUwvJuJ1Vlzx5wApiz2ecy4ifCb9xSP2x1WYhGsC/qZWmajZSTn75akRarY1C32Ed/FxQByY49sQZoob34bFuLVVJqo2KxXTfdgBd6T9NxwSIPvh9rxPxfqAKrq5PLHmirjp1aMBUez0aKA/3zUgNUY24olEyS04KEBewKnJK5tzRBOS4lsGIel4RYD0VARXWNgL79eNPywuXQR+Jq7E77g2/f8C0mxltSDULsEPeCtFzbfDVE9TE5weS5S9Dn9EpOOjmZZBFDsneliW703xll+GGd+bpPZIvG5JNnJ9NPJPVd5qjbkwMWFSYsGf/zG+hPFnw0jRxw1JZncmEpeqTOeEnfdsEceQBtZFnM3YQzghWvg0bj+Y77L46naq7VZsRu4jK5MYF4eRUhR110AckXQ7MMpFOpI9N44wZl7cuT+aWJqyr68rZfnsUS5etS2ZdP0IY+ZGqHdn46VGGegKgJIrLsyOWrXBpPk1iZQjgRCX3ZTbWsnQ02vHsW/K99EUvgVE8ZZiheZm7LKE8RJNh1z0wdwPimrbsXIRaurGFRsCAH8D3+LIdk3XIpwAAAAASUVORK5CYII="/>
+                    </svg>
+                </div>
+                <div class="d-content">
+                    <div class="d-content-title">
+                        Качественный арбитраж
+                    </div>
+                    <div class="d-content-text">
+                        В базе знаний мы даем четкие рекомендации по разработке ТЗ,
+                        которое безубыточно для исполнителя, даже если сложности
+                        возникнут, мы поможем решить при минимальных потерях обеих
+                        сторон
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                <div class="d-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" height="33" viewBox="0 0 33 33">
+                        <image id="Слой_31" data-name="Слой 31" width="33" height="33" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAEE0lEQVRYha2YeYhXVRTHPzOOkkrjjFsiuIzRaKUzhljmhlKaYc6kLY5QuPwxqIiJlaaCGu6mQamkDY6RtJiYSy5JuBCSliIuiEsGlTKMiuZSSTqTcuj79HJ9v9+7P+zA48zv3PPO+95z79kmq1W7Jwmg5sBLwPNALyAPqAJaAheA3cBWYB1wLcSgS0kgCoF5wBBH9hNQA3QHdgBNgM7O+ipgBnAmFER2mrU5wEkBqACKDTTwFDBaOi8DT0jeDfgCGAn8DkwMBRHniRxgp9z+KTAB+MPTaayP/wj86a21Bj4ESoGNwIuZgrAd/QIUyMim0N3E0ChgJbBXR5eS/OP4XgB6JADIl6captGpBF4AngbWhIKwC9gTGAT8kO4lATDAjybobQHKgVfF04JoAbwDrAU2Jxg2uin+b4BuhTa1AnggHYhPxIcFGHU/fitQf5D44lQgGgHPKRJqA41mZQjiErALGJsKRLT76YEG3Y9nJei5NEl8YByIKI5/y8Bgpp4wOiBeEgeiL7AnA2MEXsg4OqeQvQdEXeAfoL8yYQhViddL0Gvk/bYoeSwOhBWaZ4DtqgshNFX8kie3UH8XOK6juix+DHhLoM76xnKU67cBU5Syk+hjXebxwGlHvtgpWj8rL9h6O/7b5Htau+cbBuIvoClwOACA5ZPhqqIrJDNvHlSVXaTM63sIpXrLmvMFpDgqftnqCboGANgoABMcAEaHZNAq4dsOgFxggziqxAtUfc07RyID2eqGjDokgLAQngZ84Mjs705qavY78kIdTan4Ix7oIhXK1aiU1wf+FurBAR6JKE+7WwhMduSzBdYnS4aznN/z9V5B1E9YR1QGPBjTpKSiOYoSN2s2A86rCC5SobMUMBPoA7RR1xWRRc7qCES0q2/VzIZQtT5Y5MjM7acUDTsduVXPufJatSPfB3SJqqjF85vAAOD1AAC2u4eArzz5FfFy3ZUiPTW6G9WevqWGHLepeR/4RtW0fwKIBuJ+R22eWQIM1e0/rOem8opPV4lp70rkIsueI9KAuC7eJGbNPtZel7xUzx5FUjNPNy8OBE5PuEoDTZsYnRu6Q2UxRst1LzaoT93kZEsfhB3/jVRzR5kaELukvwLrgd6ezsyYJJerRPaRvJSvbBwNT5c9fYuKz5MmsMaaptzzrFJBylXBGwcsc9YrNQCh/BPdn+XAGEdvrupV29BZFDU//XRcBcon1gI8rNB0i5l58BWBMVBfAt856x2Bo8BnwGuZgIijOgq7pmr/Tzhr5qmvdRRXHXmxUreVgbYkzKIhVKs6UaUeYrqAoQ8/6wCop7QdAegYGblfT9yxo2iyKmtkIWnPRf1bwYYlG5iNTM9GxLsv/08gInoceEPTukVGRAbGBqulutR3CbgNy0/feEzlw4oAAAAASUVORK5CYII="/>
+                    </svg>
+                </div>
+                <div class="d-content">
+                    <div class="d-content-title">
+                        Возможность повременной оплаты
+                    </div>
+                    <div class="d-content-text">
+                        Мы внедрили то, что есть сейчас только на зарубежном рынке
+                        фриланса, теперь вы можете быть спокойны, что абсолютно все
+                        ваше время будет оплачено
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                <div class="d-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27"
+                         height="28" viewBox="0 0 27 28">
+                        <image id="Слой_28" data-name="Слой 28" width="27" height="28"
+                               xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAcCAYAAACQ0cTtAAACiUlEQVRIibXWS2jXRxAH8I/PJg0q6kHR2vhGFBWVtnqwVjyIiIi1liKKoJcKemm9qIiK6KHQSz3qQb2IVKqg+DooPhFftWgOpTXxhQelRYuJScQoC7PhRyh5kF8G/sxvd3bnuzP7nZ1/r1FjP9dJ+Q6bMS3GLTiAXXjYGQe9Owl0EocxDD9hI45jLeriIKWAXcJifIPh2IKRWI5K/BYHWdqRo74d2DdgLr7EZXyM65iKhZgZoFcj0l5diawCVeE06b04H0BJjgbQdPyCPjG/KPSOiLaqPbDVuIM3eI360Em2F9ZfCf11kONdjP/DsVjbEHuT/rZtGhfgUIxT7n/HeySarsDjwvo9uBeO12My/gnbMzRjW+xfiSM4lQ+eqH830pJkKP4tOE+bZkXU2Z6cf4YbmIC/w3YbbzE7xnlNq8++AfRz4ZS1AfJRwUltfI9tcw1XIuWJGGNiLoOPCl1RTGNOwSYcjNMmacI5jMCgmLsfxZzu+gXGFQ6VSNQPo2NNKvQvcDaibMxgE0OvUa58ikfYjR8zG5tLBsnyOH7LFKj/vofAxJ0qgrVb+d2Ulqi5VoKUGVmqzeoC0BQ81Ym3sSsyOB6E6nhRBsb8K3yC/Rmsu2lM+6+F0+nxtt6MGnsXPW9TWQSZgUkBNA8XsTXI0YgaJRJkQOi6AOuPOQV7pRKpfyt8nMA6LCm0HZkbZRGkPrpH6n3P44naiSH4MzrIH2XW2YV49n4NkNQbn0RHT2n8quw6+wur2szVROt5mcFaSgL7P+kThGklSFMPg1VksIZgT0/J+NzpUxrTX7HTwaQzUfGJMOmX7jKTJ3/n+23Pnq4lRfN92H7IYAkgNc19mF9yVImNqUs/gA8rH5VqPlnflgAAAABJRU5ErkJggg=="/>
+                    </svg>
+                </div>
+                <div class="d-content">
+                    <div class="d-content-title">
+                        Не только фриланс, но и маркетплейс
+                    </div>
+                    <div class="d-content-text">
+                        Вы можете не только оказывать моделям и агентствам свои
+                        услуги, но и продавать в нашем маркетплейсе свои товары
+                        для вебкам
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="market-b">
+        <button class="btn-blue market-btn">Регистрация для исполнителя</button>
+    </div>
+</div>
+<div id="footer">
+    <div class="footer-container">
+        <div class="footer-logo">
+            <div class="logo">
+                <span>WebcamMarket</span>
+            </div>
+            <div class="footer-logo-icons">
+                <a href="">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-blogger-b"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="footer-logo-privacy"> © WebcamMarket 2021. Права защищены </div>
+        </div>
+        <div class="footer-block-links">
+            <div class="footer-info-menu">
+                <ul>
+                    <li><a class="link" href="#">О сервисе</a></li>
+                    <li><a class="link" href="#">Для моделей и агенств</a></li>
+                    <li><a class="link" href="#">Для исполнителей</a></li>
+                    <li><a class="link" href="#">Обратная связь</a></li>
+                </ul>
+            </div>
+            <div class="footer-menu">
+                <ul>
+                    <li><a class="link" href="#">Задачи</a></li>
+                    <li><a class="link" href="#">Каталог исполнителей</a></li>
+                    <li><a class="link" href="#">Каталог моделей и агенств</a></li>
+                    <li><a class="link" href="#">Вопрос-ответ</a></li>
+                    <li><a class="link" href="#">Форум</a></li>
+                    <li><a class="link" href="#">Интернет-магазин</a></li>
+                </ul>
+            </div>
+            <div class="footer-search">
+                <ul>
+                    <li><a class="link" href="#">Коуч</a></li>
+                    <li><a class="link" href="#">Оператор</a></li>
+                    <li><a class="link" href="#">Ведение соцсетей</a></li>
+                    <li><a class="link" href="#">Видеоредактор</a></li>
+                    <li><a class="link" href="#">Дизайнер</a></li>
+                    <li><a class="link" href="#">IT-специалист</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="additional-footer">
+    <div class="add-footer-links">
+        <a href="#">Пользовательское соглашение</a>
+        <a href="#">Политика конфиденциальности</a>
+        <a href="#">Использование Cookies</a>
+    </div>
+</div>
+<div id="btn-up">
+    <a href="#header">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29px" height="16px">
+            <path fill-rule="evenodd"  fill="rgb(29, 34, 54)"
+                  d="M14.500,7.001 L0.001,16.000 L0.001,13.999 L14.500,5.000 L14.500,5.000 L14.500,5.000 L28.999,13.999 L28.999,16.000 L14.500,7.001 ZM0.001,11.000 L0.001,8.999 L14.500,-0.000 L14.500,0.000 L14.500,-0.000 L28.999,8.999 L28.999,11.000 L14.500,2.001 L0.001,11.000 Z"/>
+        </svg>
+    </a>
+</div>
+</body>
+<script src="jquery.js"></script>
+<script src="main.js"></script>
+</html>

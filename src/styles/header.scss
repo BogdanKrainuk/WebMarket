@@ -1,0 +1,274 @@
+@font-face {
+  font-family: "SFUIDisplay-light";
+  src: url("../fonts/SFUIText-Light.woff2");
+}
+@font-face {
+  font-family: "SFUIDisplay-semibold";
+  src: url("../fonts/SFUIDisplay-Semibold.woff2");
+}
+@font-face {
+  font-family: "SFUIDisplay-thin";
+  src: url("../fonts/SFUIDisplay-Thin.woff2");
+}
+@font-face {
+  font-family: "SFUIDisplay-medium";
+  src: url("../fonts/SFUIDisplay-Medium.woff2");
+}
+@font-face {
+  font-family: "SFUIDisplay-bold";
+  src: url("../fonts/SFUIDisplay-Bold.woff2");
+}
+@font-face {
+  font-family: "SFUIDisplay-heavy";
+  src: url("../fonts/SFUIDisplay-Heavy.woff2");
+}
+@font-face {
+  font-family: "SFUIDisplay-regular";
+  src: url("../fonts/SFUIDisplay-Regular.woff2");
+}
+
+
+@font-face {
+  font-family: "Caveat-Bold";
+  src: url("../fonts/Caveat-Bold.woff2");
+}
+
+body {
+  margin: 0;
+}
+.btn-blue {
+  background-image: -moz-linear-gradient( 121deg, rgb(66,170,198) 0%, rgb(17,196,212) 100%);
+  background-image: -webkit-linear-gradient( 121deg, rgb(66,170,198) 0%, rgb(17,196,212) 100%);
+  background-image: -ms-linear-gradient( 121deg, rgb(66,170,198) 0%, rgb(17,196,212) 100%);
+  outline: none;
+  border: none;
+  border-radius: 17px;
+  cursor: pointer;
+}
+.max-width-1439px, .max-width-1023px {
+  display: none;
+}
+.logo {
+  font-size: 40px;
+  font-family: "Caveat-Bold", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 0.723;
+}
+.search-form {
+  position: relative;
+  .search-form-input {
+    border: 1px solid #6b6c72;
+    background-color: transparent;
+    border-radius: 30px;
+    width: 335px;
+    height: 38px;
+    outline: none;
+    padding-left: 55px;
+    font-size: 15px;
+    font-family: "SFUIDisplay-light", sans-serif;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .search-form-btn {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+  }
+}
+#header {
+  background: linear-gradient(to bottom, #171b2a 59px, #1d2236 0);
+  width: 100%;
+  height: 138px;
+  .header-container-add {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1746px;
+    height: 59px;
+    margin: 0 auto;
+    #burger-menu {
+
+    }
+    .btn-order {
+      .order {
+          width: 164px;
+          height: 34px;
+          font-size: 15px;
+          font-family: "SFUIDisplay-semibold", sans-serif;
+          color: rgb(255, 255, 255);
+      }
+    }
+    .my-products {
+      display: flex;
+      width: 325px;
+      justify-content: space-between;
+      .my-product {
+        display: flex;
+        align-items: center;
+        span {
+          margin-right: 10px;
+        }
+      }
+    }
+    a.dealings, a.my-product {
+      font-size: 17px;
+      font-family: "SFUIDisplay-light", sans-serif;
+      color: rgb(66, 170, 198);
+      text-decoration: none;
+    }
+    .icons {
+      display: flex;
+      justify-content: space-around;
+      width: 225px;
+      .icon-shop, .icon-chosen, .icon-notification, .icon-message {
+        display: flex;
+        align-items: center;
+      }
+    }
+    .user-profile {
+      display: flex;
+      align-items: center;
+      width: 155px;
+      justify-content: space-between;
+      .name {
+          font-size: 17px;
+          font-family: "SFUIDisplay-light", sans-serif;
+          color: rgb(255, 255, 255);
+      }
+      .avatar {
+        width: 35px;
+        height: 35px;
+      }
+    }
+    .user-money {
+      display: flex;
+      align-items: center;
+      color: white;
+      font-size: 15px;
+      font-family: "SFUIDisplay-bold", sans-serif;
+      span.cash {
+        margin-left: 20px;
+      }
+      span.cash:after {
+        content: "\20BD";
+      }
+    }
+    #lang {
+      color: white;
+      font-size: 17px;
+      font-family: "SFUIDisplay-bold", sans-serif;
+      .active {
+        color: #c8e712;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+  .header-container {
+    max-width: 1746px;
+    height: 79px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .h-container-menu {
+      display: flex;
+      width: 1050px;
+      justify-content: space-between;
+      a {
+        font-size: 19px;
+        font-family: "SFUIDisplay-light", sans-serif;
+        color: rgb(255, 255, 255);
+        line-height: 1.537;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+/*footer style*/
+
+#footer {
+  background-color: rgb(29, 34, 54);
+  height: 414px;
+  .footer-container {
+    display: flex;
+    align-items: center;
+    width: 1750px;
+    height: 100%;
+    margin: 0 auto;
+    .footer-logo {
+      display: flex;
+      flex-direction: column;
+      margin-right: 175px;
+      .logo {
+        font-size: 32px;
+      }
+      .footer-logo-icons {
+        display: flex;
+        justify-content: space-between;
+        width: 190px;
+        padding: 80px 0;
+        a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 24px;
+          height: 24px;
+          border: 2px solid #41a7c3;
+          border-radius: 50%;
+          text-decoration: none;
+          color: #41a7c3;
+        }
+      }
+      .footer-logo-privacy {
+        font-size: 15px;
+        font-family: "SFUIDisplay-thin", sans-serif;
+        color: rgb(255, 255, 255);
+      }
+    }
+    .footer-block-links {
+      display: flex;
+      width: 1060px;
+      justify-content: space-between;
+      a.link {
+        font-size: 17px;
+        font-family: "SFUIDisplay-thin", sans-serif;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        line-height: 40px;
+        padding-left: 25px;
+      }
+      ul {
+        li {
+          color: #616573;
+        }
+      }
+    }
+  }
+}
+#additional-footer {
+  background-color: #12141f;
+  .add-footer-links {
+    width: 750px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    a {
+      font-size: 15px;
+      font-family: "SFUIDisplay-thin", sans-serif;
+      color: rgba(66, 170, 198, 0.8);
+      text-decoration: none;
+      border-bottom: 1px solid #275a6b;
+    }
+  }
+}
+
